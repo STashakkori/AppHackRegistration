@@ -1,0 +1,248 @@
+head{
+}
+
+body{
+    background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#282828;
+    background-size:16px 16px;
+    margin:0;
+}
+
+.container{
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:#FFDD1C;
+    z-index:1;
+    opacity:.85;
+    padding-top:160px;
+}
+
+p#header{
+    //line-height:3em;
+    color:#000000;
+    margin:0;
+    //background-color:#000000;
+    background-color:#FFDD1C;
+    text-align: center;
+    font-size:40px;
+    font-weight:bold;
+    font-family:"Calibri";
+    height:60%;
+    padding-bottom:10px;
+    }
+
+div#wrap
+{
+    //background-color:#000000;
+    background-color:#FFDD1C;
+    width:40%;
+    height:300px;
+    margin-left: auto ;
+    margin-right: auto ;
+    //box-shadow: 5px 0px 20px #ffffff, -5px 0px 20px #ffffff;
+    opacity:0.88;
+}
+
+div#wrap.center{
+        margin-left: auto ;
+        margin-right: auto ;
+}
+
+div#input1{
+        //padding-top:10px;
+    margin-left: auto;
+        margin-right: auto;
+        width:50%;
+}
+
+div#input2{
+    margin-left: auto;
+        margin-right: auto;
+        width:50%;
+}
+
+.form-signin input[type="username"] {
+    margin-bottom: 10px;
+    font-size: 120%;
+    height:50px;
+    width:97%;
+    text-align:center;
+    background-color:#000000;
+    font-size:40px;
+    font-weight:bold;
+    font-family:"Calibri";
+    height:60%;
+    /*padding-bottom:10px;*/
+}
+
+* {cursor: none;}
+
+div#wrap
+{
+    //background-color:#000000;
+    background-color:#FFDD1C;
+    width:40%;
+    height:100%;
+    margin-left: auto;
+    margin-right: auto;
+    //box-shadow: 5px 0px 20px #ffffff, -5px 0px 20px #ffffff;
+    opacity:0.88;
+}
+
+div#wrap.center{
+        margin-left: auto;
+        margin-right: auto;
+}
+
+div#input1{
+        //padding-top:10px;
+    margin-left: auto;
+        margin-right: auto;
+        width:50%;
+}
+
+div#input2{
+    margin-left: auto;
+        margin-right: auto;
+        width:50%;
+}
+
+.form-signin input[type="username"] {
+    margin-bottom: 10px;
+    font-size: 120%;
+    height:50px;
+    width:97%;
+    text-align:center;
+    background-color:#000000;
+    color:#FFCC00;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-color:#FFCC00;
+    box-shadow: 5px 0px 15px #ffffff, -5px 0px 15px #ffffff;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    font-size: 120%;
+    height:50px;
+    width:97%;
+    text-align:center;
+    color:#FFCC00;
+    background-color:#000000;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-color:#FFCC00;
+    box-shadow: 5px 0px 15px #ffffff, -5px 0px 15px #ffffff;
+}
+
+.form-signin input[type="username"]:focus
+{
+    outline-color:#FF6826;
+    background-color:#141414;
+    //onclick
+    }
+
+.form-signin input[type="password"]:focus
+{
+    outline-color:#FF6826;
+    background-color:#141414;
+    //font-size:160%;
+}
+
+.form-signin input[type="username"]:hover
+{
+    outline-color:#C77B02;
+    background-color:#141414;
+    font-size:160%;
+}
+
+.form-signin input[type="password"]:hover
+{
+    outline-color:#C77B02;
+    background-color:#141414;
+    font-size:160%;
+}
+
+.form-signin input:focus::-webkit-input-placeholder
+{
+    color: transparent;
+}
+
+.form-signin input:focus::-webkit-input-placeholder
+{
+    color: transparent;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: #E3E3E3;
+}
+
+input::-webkit-input-placeholder {
+    color:#E3E3E3;
+}
+
+input::-moz-placeholder{
+    color:#E3E3E3;
+}
+
+input:-ms-input-placeholder {
+    color:#E3E3E3;
+}
+
+div#submit{
+    //padding-top:10%;
+    text-align:center;
+    position:relative;
+}
+
+button#submit{
+    height:50px;
+    width:25%;
+    font-size:120%;
+    font-weight:bold;
+    margin:0;
+    color:#000000;
+    border-color:#A1A1A1;
+    background-color:#EDEDED;
+    box-shadow: 3px 0px 7px #888888, -3px 0px 7px #888888;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+button#submit:hover{
+    background-color:#ffffff;
+    font-size:160%;
+    color:#00CC00;
+    #color:#FF6826;
+    cursor: pointer;
+}
+
+::selection {
+    background: #69B4FF; /* Safari */
+}
+
+::-moz-selection {
+    background: #69B4FF; /* Firefox */
+}
+
+body:after {
+    content:'';
+    position:fixed;
+    bottom: 0;
+    height:20px;
+    width: 100%;
+    background: linear-gradient(bottom, #000000, transparent);
+    background:-o-linear-gradient(bottom, #000000, transparent);
+    background:-moz-linear-gradient(bottom, #000000, transparent);
+    background:-ms-linear-gradient(bottom, #000000, rgba(0, 0, 0, 0));
+    background:-webkit-linear-gradient(bottom, #000000, transparent);
+    background:-webkit-gradient(linear, left bottom, left top, from(#000000), to(transparent));
+    z-index: 999;
+}

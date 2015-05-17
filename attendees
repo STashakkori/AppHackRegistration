@@ -1,0 +1,13 @@
+drop table if exists attendees;
+
+create table attendees (
+  id int not null auto_increment,
+  fname varchar(20),  
+  lname varchar(20), 
+  email varchar(50) UNIQUE, 
+  phone varchar(30),
+  primary key (id),
+  unique key `unique_attendee`(`fname`,`lname`,`email`)  
+);
+
+alter table attendees add unique index `unique_index`(`fname`, `lname`, `address`);

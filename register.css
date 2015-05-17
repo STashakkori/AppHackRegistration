@@ -1,0 +1,39 @@
+body{
+	background-color:#ffcc00;
+	text-align:center;
+	font-family:"Lucida Console", Monaco, monospace;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+#input1,#input2,#input3,#input4{
+	border-radius: 25px;
+    	border-color:#000;
+}
+
+#one,#two,#three,#four{;
+	font-size:200%;
+}
+
+input[type="button"{
+	height:100%;
+	width:100%;
+}
+
+.submitbutton{
+	height:400px;
+}
